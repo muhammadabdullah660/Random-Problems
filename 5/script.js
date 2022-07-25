@@ -64,3 +64,9 @@ let myObj2 = {
 myObj2.myFunc1();
 console.log(myObj2.a);
 //arrow function targets windows obj
+
+//TimeOut Function
+setTimeout(() => {
+  console.log(`i was executed after some time`);
+}, 3000);
+console.log("Iam Normal");
